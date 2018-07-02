@@ -7,7 +7,7 @@
  *
  * @usage
  * ```ts
- * import { NavParams } from 'ionic-angular';
+ * import { NavParams } from 'tw-ionic-angular';
  *
  * export class MyClass{
  *
@@ -36,7 +36,7 @@ export class NavParams {
    * Get the value of a nav-parameter for the current view
    *
    * ```ts
-   * import { NavParams } from 'ionic-angular';
+   * import { NavParams } from 'tw-ionic-angular';
    *
    * export class MyClass{
    *  constructor(public navParams: NavParams){

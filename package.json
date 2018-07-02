@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "ionic2",
-  "version": "3.9.2",
+  "version": "3.9.7",
   "description": "A powerful framework for building mobile and progressive web apps with JavaScript and Angular",
   "keywords": [
     "ionic",
@@ -22,7 +22,7 @@
   "scripts": {
     "test": "gulp validate",
     "test:generators": "jasmine-node ./tooling/spec",
-    "link": "gulp release.prepareReleasePackage && cd dist/ionic-angular && npm link",
+    "link": "gulp release.prepareReleasePackage && cd dist/tw-ionic-angular && npm link",
     "tsc": "tsc --outdir .tmp"
   },
   "dependencies": {

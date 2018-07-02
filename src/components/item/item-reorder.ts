@@ -105,7 +105,7 @@ export class ReorderIndexes {
  * reorder the array of items. This can be used instead:
  *
  * ```ts
- * import { reorderArray } from 'ionic-angular';
+ * import { reorderArray } from 'tw-ionic-angular';
  *
  * class MyComponent {
  *   items = [];

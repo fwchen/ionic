@@ -18,7 +18,7 @@ import { isArray, isDefined, isFunction, isObject } from '../util/util';
  * You can set the tab placement, icon mode, animations, and more here.
  *
  * ```ts
- * import { IonicApp, IonicModule } from 'ionic-angular';
+ * import { IonicApp, IonicModule } from 'tw-ionic-angular';
  *
  * @NgModule({
  *   declarations: [ MyApp ],
@@ -44,7 +44,7 @@ import { isArray, isDefined, isFunction, isObject } from '../util/util';
  * Below is an example where an app can override any setting we want based on a platform.
  *
  * ```ts
- * import { IonicModule } from 'ionic-angular';
+ * import { IonicModule } from 'tw-ionic-angular';
  *
  * @NgModule({
  *   ...

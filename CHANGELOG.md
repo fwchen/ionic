@@ -1,11 +1,59 @@
+<a name="3.9.7"></a>
+## [3.9.7](https://github.com/ionic-team/ionic/compare/v3.9.2...v3.9.7) (2018-07-02)
+
+
+### Bug Fixes
+
+* **alert:** allow disabled text input ([#13521](https://github.com/ionic-team/ionic/issues/13521)) ([1b3190b](https://github.com/ionic-team/ionic/commit/1b3190b)), closes [#13488](https://github.com/ionic-team/ionic/issues/13488)
+* **cordova:** don't apply safe area to footer if there are bottom tabs ([0182014](https://github.com/ionic-team/ionic/commit/0182014))
+* **sass:** use sass variables for slide background values ([3d0713d](https://github.com/ionic-team/ionic/commit/3d0713d))
+
+
+
+<a name="3.9.6"></a>
+## [3.9.6](https://github.com/ionic-team/ionic/compare/v3.9.2...v3.9.6) (2018-07-02)
+
+
+### Bug Fixes
+
+* **alert:** allow disabled text input ([#13521](https://github.com/ionic-team/ionic/issues/13521)) ([1b3190b](https://github.com/ionic-team/ionic/commit/1b3190b)), closes [#13488](https://github.com/ionic-team/ionic/issues/13488)
+* **cordova:** don't apply safe area to footer if there are bottom tabs ([0182014](https://github.com/ionic-team/ionic/commit/0182014))
+* **sass:** use sass variables for slide background values ([3d0713d](https://github.com/ionic-team/ionic/commit/3d0713d))
+
+
+
+<a name="3.9.5"></a>
+## [3.9.5](https://github.com/ionic-team/ionic/compare/v3.9.2...v3.9.5) (2018-07-02)
+
+
+### Bug Fixes
+
+* **alert:** allow disabled text input ([#13521](https://github.com/ionic-team/ionic/issues/13521)) ([1b3190b](https://github.com/ionic-team/ionic/commit/1b3190b)), closes [#13488](https://github.com/ionic-team/ionic/issues/13488)
+* **cordova:** don't apply safe area to footer if there are bottom tabs ([0182014](https://github.com/ionic-team/ionic/commit/0182014))
+* **sass:** use sass variables for slide background values ([3d0713d](https://github.com/ionic-team/ionic/commit/3d0713d))
+
+
+
+<a name="3.9.3"></a>
+## [3.9.3](https://github.com/ionic-team/ionic/compare/v3.9.2...v3.9.3) (2018-07-02)
+
+
+### Bug Fixes
+
+* **alert:** allow disabled text input ([#13521](https://github.com/ionic-team/ionic/issues/13521)) ([1b3190b](https://github.com/ionic-team/ionic/commit/1b3190b)), closes [#13488](https://github.com/ionic-team/ionic/issues/13488)
+* **cordova:** don't apply safe area to footer if there are bottom tabs ([0182014](https://github.com/ionic-team/ionic/commit/0182014))
+* **sass:** use sass variables for slide background values ([3d0713d](https://github.com/ionic-team/ionic/commit/3d0713d))
+
+
+
 <a name="3.9.2"></a>
 ## [3.9.2](https://github.com/ionic-team/ionic/compare/v3.9.1...v3.9.2) (2017-11-08)
 
 ## Upgrade Instructions
-`ionic-angular` 3.9.2 is patch release of `ionic-angular` 3.9.1. To upgrade, follow the instructions [here](https://github.com/ionic-team/ionic/blob/master/CHANGELOG.md#390-2017-11-08) for updating to `ionic-angular` 3.9.0. After completing those steps, update the `ionic-angular` version to 3.9.2.
+`tw-ionic-angular` 3.9.2 is patch release of `tw-ionic-angular` 3.9.1. To upgrade, follow the instructions [here](https://github.com/ionic-team/ionic/blob/master/CHANGELOG.md#390-2017-11-08) for updating to `tw-ionic-angular` 3.9.0. After completing those steps, update the `tw-ionic-angular` version to 3.9.2.
 
 ```
-npm install ionic-angular@3.9.2 --save
+npm install tw-ionic-angular@3.9.2 --save
 ```
 
 ### Bug Fixes
@@ -18,10 +66,10 @@ npm install ionic-angular@3.9.2 --save
 ## [3.9.1](https://github.com/ionic-team/ionic/compare/v3.9.0...v3.9.1) (2017-11-08)
 
 ## Upgrade Instructions
-`ionic-angular` 3.9.1 is patch release of `ionic-angular` 3.9.0. To upgrade, follow the instructions [here](https://github.com/ionic-team/ionic/blob/master/CHANGELOG.md#390-2017-11-08) for updating to `ionic-angular` 3.9.0. After completing those steps, update the `ionic-angular` version to 3.9.1.
+`tw-ionic-angular` 3.9.1 is patch release of `tw-ionic-angular` 3.9.0. To upgrade, follow the instructions [here](https://github.com/ionic-team/ionic/blob/master/CHANGELOG.md#390-2017-11-08) for updating to `tw-ionic-angular` 3.9.0. After completing those steps, update the `tw-ionic-angular` version to 3.9.1.
 
 ```
-npm install ionic-angular@3.9.1 --save
+npm install tw-ionic-angular@3.9.1 --save
 ```
 
 ### Bug Fixes
@@ -34,7 +82,7 @@ npm install ionic-angular@3.9.1 --save
 # [3.9.0](https://github.com/ionic-team/ionic/compare/v3.8.0...v3.9.0) (2017-11-08)
 
 ### Upgrade Instructions
-`ionic-angular` 3.9.0 adds support for `@angular` 5.0.0 :tada:! It is a drop-in replacement for `ionic-angular` 3.8.x.
+`tw-ionic-angular` 3.9.0 adds support for `@angular` 5.0.0 :tada:! It is a drop-in replacement for `tw-ionic-angular` 3.8.x.
 
 To update, remove existing `node_modules` and any lock files, and then update `package.json` to the following deps.
 
@@ -50,7 +98,7 @@ To update, remove existing `node_modules` and any lock files, and then update `p
   "@angular/platform-browser": "5.0.0",
   "@angular/platform-browser-dynamic": "5.0.0",
   "@ionic/storage": "2.1.3",
-  "ionic-angular": "3.9.0",
+  "tw-ionic-angular": "3.9.0",
   "rxjs": "5.5.2",
   "zone.js": "0.8.18"
   ...
@@ -142,10 +190,10 @@ doc](https://github.com/ReactiveX/rxjs/blob/master/doc/lettable-operators.md) fo
 
 This release includes improvements for iOS11 and specifically, the iPhone X. Please also read over the [iOS 11 checklist](http://blog.ionic.io/ios-11-checklist/) blog post for additional information.
 
-To update, install the latest version of `ionic-angular` and `@ionic/app-scripts`:
+To update, install the latest version of `tw-ionic-angular` and `@ionic/app-scripts`:
 
 ```bash
-npm install ionic-angular@latest --save
+npm install tw-ionic-angular@latest --save
 npm install @ionic/app-scripts@latest --save-dev
 ```
 
@@ -205,7 +253,7 @@ This release includes the latest version of `zone.js`. Update your `package.json
 ```
 "dependencies": {
     ...
-    "ionic-angular": "3.7.1",
+    "tw-ionic-angular": "3.7.1",
     ...
     "zone.js": "0.8.18"
 }
@@ -232,7 +280,7 @@ This release adds support for the latest version of Angular (4.4.3) as well as t
 
 ### Upgrade Instructions
 
-These are the latest versions of `@angular`, `rxjs`, `zone.js` and `ionic-angular`. Update your `package.json` to match the following dependencies, remove the existing `node_modules` directory, and then run `npm install`:
+These are the latest versions of `@angular`, `rxjs`, `zone.js` and `tw-ionic-angular`. Update your `package.json` to match the following dependencies, remove the existing `node_modules` directory, and then run `npm install`:
 
 ```
 ...
@@ -245,7 +293,7 @@ These are the latest versions of `@angular`, `rxjs`, `zone.js` and `ionic-angula
     "@angular/http": "4.4.3",
     "@angular/platform-browser": "4.4.3",
     "@angular/platform-browser-dynamic": "4.4.3",
-    "ionic-angular": "3.7.0",
+    "tw-ionic-angular": "3.7.0",
     "rxjs": "5.4.3",
     "zone.js": "0.8.17"
 }
@@ -273,12 +321,12 @@ If you're using a `package-lock.json` file, make sure that is updated as well.
 
 ### Upgrade Instructions
 
-`ionic-angular@3.6.1` is a drop-in replacement for 3.6.0. To install it, please run:
+`tw-ionic-angular@3.6.1` is a drop-in replacement for 3.6.0. To install it, please run:
 
 ```
 npm install -g ionic@latest
 npm install @ionic/app-scripts@2.1.4 --save-dev
-npm install ionic-angular@3.6.1 --save
+npm install tw-ionic-angular@3.6.1 --save
 ```
 
 
@@ -298,19 +346,19 @@ npm install ionic-angular@3.6.1 --save
 
 ### Upgrade Instructions
 
-`ionic-angular` 3.6.0 requires developer's to update to the latest version of the `Ionic CLI` and `@ionic/app-scripts`.
+`tw-ionic-angular` 3.6.0 requires developer's to update to the latest version of the `Ionic CLI` and `@ionic/app-scripts`.
 
 To upgrade, please run
 
 ```
 npm install -g ionic@latest
 npm install @ionic/app-scripts@latest --save-dev
-npm install ionic-angular@latest --save
+npm install tw-ionic-angular@latest --save
 ```
 
 ### Notes
 
-The URL when using deep linking is shortened and improved in this release. Due to a limitation in our nav system, if you're using `ion-tabs` and have a tab name that matches a segment, meaning you have a tab name of `schedule` and a segment of `schedule`, there could potentially be issues. To mitigate these issues, make sure you set the `tabUrlPath` property on the `ion-tab` and give it a unique name. This limitation will require an API change to fix so it will be resolved in `ionic-angular` 4.x.
+The URL when using deep linking is shortened and improved in this release. Due to a limitation in our nav system, if you're using `ion-tabs` and have a tab name that matches a segment, meaning you have a tab name of `schedule` and a segment of `schedule`, there could potentially be issues. To mitigate these issues, make sure you set the `tabUrlPath` property on the `ion-tab` and give it a unique name. This limitation will require an API change to fix so it will be resolved in `tw-ionic-angular` 4.x.
 
 
 The upgrades include necessary changes to generators that add back lazy loading functionality, as well as an improved way of generating component/directives/and pipes.
@@ -364,7 +412,7 @@ We think that this will allow developers to get up and running with custom compo
 ## [3.5.3](https://github.com/ionic-team/ionic/compare/v3.5.2...v3.5.3) (2017-07-14)
 
 ## Upgrade Instructions
-`ionic-angular@3.5.3` is a drop-in replacement for `3.5.2`. To install it, simply run `npm install ionic-angular@3.5.3 --save --save-exact`.
+`tw-ionic-angular@3.5.3` is a drop-in replacement for `3.5.2`. To install it, simply run `npm install tw-ionic-angular@3.5.3 --save --save-exact`.
 
 ### Bug Fixes
 
@@ -376,9 +424,9 @@ We think that this will allow developers to get up and running with custom compo
 ## [3.5.2](https://github.com/ionic-team/ionic/compare/v3.5.1...v3.5.2) (2017-07-13)
 
 ## Upgrade Instructions
-`ionic-angular@3.5.2` is a drop-in replacement for `3.5.1`. To install it, simply run `npm install ionic-angular@3.5.2 --save --save-exact`.
+`tw-ionic-angular@3.5.2` is a drop-in replacement for `3.5.1`. To install it, simply run `npm install tw-ionic-angular@3.5.2 --save --save-exact`.
 
-We have released a new version of our build process for `ionic-angular` apps, `@ionic/app-scripts` in conjunction with this release of `ionic-angular`. While it's not a required update, we recommend it because we have greatly improved the developer experience. Incremental, or update builds while developing are much faster now. We've also added `scope hoisting` for better start-up performance on production builds.
+We have released a new version of our build process for `tw-ionic-angular` apps, `@ionic/app-scripts` in conjunction with this release of `tw-ionic-angular`. While it's not a required update, we recommend it because we have greatly improved the developer experience. Incremental, or update builds while developing are much faster now. We've also added `scope hoisting` for better start-up performance on production builds.
 
 To upgrade to `@ionic/app-scripts`, run the following command:
 
@@ -445,14 +493,14 @@ See the [3.5.2](https://github.com/ionic-team/ionic/blob/master/CHANGELOG.md#352
 
 ### Steps to Upgrade
 
-`ionic-angular` should be set to version `3.5.0`.
+`tw-ionic-angular` should be set to version `3.5.0`.
 
 ```
-npm install ionic-angular@3.5.0 --save --save-exact
+npm install tw-ionic-angular@3.5.0 --save --save-exact
 ```
 
 ### Notes
-There were major improvements made to navigation in this release of `ionic-angular`. Specifically, we updated Ionic to support a concept of `n` root navigation elements, instead of just one. This will enable first-class url support for things `split-pane`. Before `3.5.0`, only one section of the screen could be represented in the URL. With these changes, multiple sections can be. Another large change was improving the behavior surrounding browser behaviors, such as the back-and-forward buttons, as well as refresh. In general, Ionic should work much more intuitively in a web browser now.
+There were major improvements made to navigation in this release of `tw-ionic-angular`. Specifically, we updated Ionic to support a concept of `n` root navigation elements, instead of just one. This will enable first-class url support for things `split-pane`. Before `3.5.0`, only one section of the screen could be represented in the URL. With these changes, multiple sections can be. Another large change was improving the behavior surrounding browser behaviors, such as the back-and-forward buttons, as well as refresh. In general, Ionic should work much more intuitively in a web browser now.
 
 As a result of these improvements, if you're using deep linking, the urls of the application will be different with `3.5.0` than they were with previous Ionic releases. The URLs will likely change again in the near future with the next round of navigation improvements too. For now, we don't recommend using `href` attributes in the application. Using the `navPush` and `navPop` directives is a better option for now while URL support is being built-out.
 
@@ -491,7 +539,7 @@ As a result of these improvements, if you're using deep linking, the urls of the
 
 ### Steps to Upgrade
 
-`ionic-angular` should be set to version `3.4.0` in the package.json dependency list. The latest `@angular` release `4.1.3` is also supported. Feel free to update apps by updating the `package.json` dependencies to match below.
+`tw-ionic-angular` should be set to version `3.4.0` in the package.json dependency list. The latest `@angular` release `4.1.3` is also supported. Feel free to update apps by updating the `package.json` dependencies to match below.
 
 ```
 "dependencies": {
@@ -507,7 +555,7 @@ As a result of these improvements, if you're using deep linking, the urls of the
   "@ionic-native/splash-screen": "3.12.1",
   "@ionic-native/status-bar": "3.12.1",
   "@ionic/storage": "2.0.1",
-  "ionic-angular": "3.4.2",
+  "tw-ionic-angular": "3.4.2",
   "ionicons": "3.0.0",
   "rxjs": "5.4.0",
   "sw-toolbox": "3.6.0",
@@ -570,7 +618,7 @@ As a result of these improvements, if you're using deep linking, the urls of the
 
 ### Steps to Upgrade
 
-`ionic-angular` now supports the latest `@angular` (4.1.2), and `typescript` (2.3.3) versions. Feel free to update apps by updating the `package.json` dependencies to match below:
+`tw-ionic-angular` now supports the latest `@angular` (4.1.2), and `typescript` (2.3.3) versions. Feel free to update apps by updating the `package.json` dependencies to match below:
 
 ```
 "dependencies": {
@@ -586,7 +634,7 @@ As a result of these improvements, if you're using deep linking, the urls of the
   "@ionic-native/splash-screen": "3.10.2",
   "@ionic-native/status-bar": "3.10.2",
   "@ionic/storage": "2.0.1",
-  "ionic-angular": "3.3.0",
+  "tw-ionic-angular": "3.3.0",
   "ionicons": "3.0.0",
   "rxjs": "5.1.1",
   "sw-toolbox": "3.6.0",
@@ -598,7 +646,7 @@ As a result of these improvements, if you're using deep linking, the urls of the
 }
 ```
 
-Another optional step is to remove the `src/declarations.d.ts` file. This is a legacy file introduced early with `ionic-angular` projects to improve compatibility between TypeScript and third-party libraries. Due to improvements in TypeScript, this file is no longer necessary. By removing this file, the TypeScript compiler will be able to provide more accurate error messages for `import` statements.
+Another optional step is to remove the `src/declarations.d.ts` file. This is a legacy file introduced early with `tw-ionic-angular` projects to improve compatibility between TypeScript and third-party libraries. Due to improvements in TypeScript, this file is no longer necessary. By removing this file, the TypeScript compiler will be able to provide more accurate error messages for `import` statements.
 
 ### Bug Fixes
 
@@ -649,7 +697,7 @@ Update your package.json to match the following dependencies, remove the existin
   "@ionic-native/splash-screen": "3.6.1",
   "@ionic-native/status-bar": "3.6.1",
   "@ionic/storage": "2.0.1",
-  "ionic-angular": "3.2.1",
+  "tw-ionic-angular": "3.2.1",
   "ionicons": "3.0.0",
   "rxjs": "5.1.1",
   "sw-toolbox": "3.6.0",
@@ -661,7 +709,7 @@ Update your package.json to match the following dependencies, remove the existin
 }
 ```
 
-Using v3 of the Ionic CLI? Make sure to add `@ionic/cli-plugin-ionic-angular` and `@ionic/cli-plugin-cordova` to your `devDependencies`. Read more about this on our [blog](http://blog.ionic.io/announcing-ionic-cli-v3/).
+Using v3 of the Ionic CLI? Make sure to add `@ionic/cli-plugin-tw-ionic-angular` and `@ionic/cli-plugin-cordova` to your `devDependencies`. Read more about this on our [blog](http://blog.ionic.io/announcing-ionic-cli-v3/).
 
 
 ### Bug Fixes
@@ -738,7 +786,7 @@ Update your package.json to match the following dependencies, remove the existin
   "@ionic-native/splash-screen": "3.4.2",
   "@ionic-native/status-bar": "3.4.2",
   "@ionic/storage": "2.0.1",
-  "ionic-angular": "3.1.1",
+  "tw-ionic-angular": "3.1.1",
   "ionicons": "3.0.0",
   "rxjs": "5.1.1",
   "sw-toolbox": "3.4.0",
@@ -835,7 +883,7 @@ With this release comes a major update to Angular (Angular 4.0!), the latest ver
       "@ionic-native/splash-screen": "3.4.2",
       "@ionic-native/status-bar": "3.4.2",
       "@ionic/storage": "2.0.1",
-      "ionic-angular": "3.0.1",
+      "tw-ionic-angular": "3.0.1",
       "ionicons": "3.0.0",
       "rxjs": "5.1.1",
       "sw-toolbox": "3.4.0",
@@ -1018,7 +1066,7 @@ of ion-slides.
       "@angular/platform-browser-dynamic": "2.4.8",
       "@angular/platform-server": "2.4.8",
       "@ionic/storage": "2.0.0",
-      "ionic-angular": "2.2.0",
+      "tw-ionic-angular": "2.2.0",
       "ionic-native": "2.4.1",
       "ionicons": "3.0.0",
       "rxjs": "5.0.1",
@@ -1114,7 +1162,7 @@ Enjoy! :tada:
 1. Update the framework:
 
     ```
-    npm install --save --save-exact ionic-angular@2.0.0-rc.6
+    npm install --save --save-exact tw-ionic-angular@2.0.0-rc.6
     ```
 
 2. Change the import for ionicons in your `theme/variables.scss` file from this:
@@ -1191,7 +1239,7 @@ Enjoy! :tada:
       "@angular/platform-browser-dynamic": "2.2.1",
       "@angular/platform-server": "2.2.1",
       "@ionic/storage": "1.1.7",
-      "ionic-angular": "2.0.0-rc.5",
+      "tw-ionic-angular": "2.0.0-rc.5",
       "ionic-native": "2.2.11",
       "ionicons": "3.0.0",
       "rxjs": "5.0.0-beta.12",
@@ -1266,7 +1314,7 @@ ion-slides was refactored to remove the external dependencies, and rewritten in 
     "@angular/platform-browser-dynamic": "2.2.1",
     "@angular/platform-server": "2.2.1",
     "@ionic/storage": "1.1.7",
-    "ionic-angular": "2.0.0-rc.4",
+    "tw-ionic-angular": "2.0.0-rc.4",
     "ionic-native": "2.2.11",
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
@@ -1491,7 +1539,7 @@ Update the following dependencies in your `package.json` file:
   "@angular/platform-browser-dynamic": "2.1.1",
   "@angular/platform-server": "2.1.1",
   "@ionic/storage": "1.1.6",
-  "ionic-angular": "2.0.0-rc.3",
+  "tw-ionic-angular": "2.0.0-rc.3",
   "ionic-native": "2.2.3",
   "ionicons": "3.0.0",
   "rxjs": "5.0.0-beta.12",
@@ -1568,7 +1616,7 @@ Update the following dependencies in your `package.json` file:
   "@angular/platform-browser-dynamic": "2.1.1",
   "@angular/platform-server": "2.1.1",
   "@ionic/storage": "1.1.6",
-  "ionic-angular": "2.0.0-rc.2"
+  "tw-ionic-angular": "2.0.0-rc.2"
 },
 "devDependencies": {
   "@ionic/app-scripts": "0.0.39"
@@ -1642,7 +1690,7 @@ Remove the `node_modules` directory from your project, and then run `npm install
     "@angular/platform-browser-dynamic": "2.0.0",
     "@angular/platform-server": "2.0.0",
     "@ionic/storage": "1.0.3",
-    "ionic-angular": "2.0.0-rc.1",
+    "tw-ionic-angular": "2.0.0-rc.1",
     "ionic-native": "2.2.3",
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
@@ -1732,7 +1780,7 @@ RC0 requires changes to the structure of your app. To get started updating your 
 
 * Angular upgrade to [2.0.0](https://angular.io/docs/ts/latest/cookbook/rc4-to-rc5.html)
 * [Renamed Lifecycle events](#lifecycle-events-renamed).
-* Storage has been removed from `ionic-angular` and placed into a separate module, `@ionic/storage`. Starters have been updated to add this, make sure to add it to your `package.json` if you’re using the storage system. See more [details here](#storage).
+* Storage has been removed from `tw-ionic-angular` and placed into a separate module, `@ionic/storage`. Starters have been updated to add this, make sure to add it to your `package.json` if you’re using the storage system. See more [details here](#storage).
 * Nav transitions are queued. For more info on what this means for you see [this section](#nav-transitions).
 * Removed Tabs `preloadTabs` ability. This is no longer needed with the Ahead of Time (AoT) compiler.
 * Icons in buttons require an attribute on the parent button in order to style them.
@@ -1944,7 +1992,7 @@ With:
 The default configuration will be updated, but if your existing app is using Sass and importing Ionic Sass files directly you’ll need to update the `includePaths` of Node Sass.
 
 ```
-node_modules/ionic-angular/themes
+node_modules/tw-ionic-angular/themes
 ```
 
 Next, to include Ionic into your custom Sass file you’ll need to update the Ionic import to this:
@@ -2012,7 +2060,7 @@ export class MyAwesomePage {
 
 #### Deployment Changes
 
-`ionic-angular` package includes es5 code with es2015 module import/exports, `umd` modules, and pure `es2015` code. The `package.json` is set up using the `main` and `module` options to make this work seamlessly.
+`tw-ionic-angular` package includes es5 code with es2015 module import/exports, `umd` modules, and pure `es2015` code. The `package.json` is set up using the `main` and `module` options to make this work seamlessly.
 
 
 ### Steps to Upgrade to RC0
@@ -2283,7 +2331,7 @@ Note: For details on NgModules you can read the Angular docs on them [here](http
   WAS:
 
   ```
-  import { NavController, Alert } from ‘ionic-angular’;
+  import { NavController, Alert } from ‘tw-ionic-angular’;
 
   constructor(public nav: NavController) {
   }
@@ -2299,7 +2347,7 @@ Note: For details on NgModules you can read the Angular docs on them [here](http
   NOW:
 
   ```
-  import { AlertController } from ‘ionic-angular’;
+  import { AlertController } from ‘tw-ionic-angular’;
 
   constructor(public alertCtrl: AlertController) {
   }
@@ -2411,7 +2459,7 @@ $text-input-wp-show-invalid-highlight: $text-input-wp-show-focus-highlight !defa
 1. Run the following command in a terminal to update the npm dependencies:
 
   ```
-  npm install --save --save-exact ionic-angular@2.0.0-beta.11 @angular/common@2.0.0-rc.4 @angular/compiler@2.0.0-rc.4 @angular/core@2.0.0-rc.4 @angular/http@2.0.0-rc.4 @angular/platform-browser@2.0.0-rc.4 @angular/platform-browser-dynamic@2.0.0-rc.4 @angular/forms@0.2.0 rxjs@5.0.0-beta.6 zone.js@0.6.12
+  npm install --save --save-exact tw-ionic-angular@2.0.0-beta.11 @angular/common@2.0.0-rc.4 @angular/compiler@2.0.0-rc.4 @angular/core@2.0.0-rc.4 @angular/http@2.0.0-rc.4 @angular/platform-browser@2.0.0-rc.4 @angular/platform-browser-dynamic@2.0.0-rc.4 @angular/forms@0.2.0 rxjs@5.0.0-beta.6 zone.js@0.6.12
   ```
 
 2. Update all Overlay components to be presented by their controller instead of `NavController`. For example, to update the popover component, the following code:
@@ -2557,7 +2605,7 @@ $text-input-wp-show-invalid-highlight: $text-input-wp-show-focus-highlight !defa
 1. Run the following command from your command prompt/terminal to update to the latest version of the Ionic framework 2:
 
   ```
-  npm install --save ionic-angular@2.0.0-beta.10 @angular/common@2.0.0-rc.3 @angular/compiler@2.0.0-rc.3 @angular/platform-browser@2.0.0-rc.3 @angular/platform-browser-dynamic@2.0.0-rc.3 @angular/http@2.0.0-rc.3 @angular/core@2.0.0-rc.3  @angular/router@2.0.0-rc.2
+  npm install --save tw-ionic-angular@2.0.0-beta.10 @angular/common@2.0.0-rc.3 @angular/compiler@2.0.0-rc.3 @angular/platform-browser@2.0.0-rc.3 @angular/platform-browser-dynamic@2.0.0-rc.3 @angular/http@2.0.0-rc.3 @angular/core@2.0.0-rc.3  @angular/router@2.0.0-rc.2
   ```
 
 2. Remove the `*navbar` attribute so this:
@@ -2864,13 +2912,13 @@ All Ionic component events have been renamed to start with `ion`. This is to pre
 1. Upgrade to `Beta 8` by running the following command:
 
   ```
-  npm install --save ionic-angular@2.0.0-beta.8
+  npm install --save tw-ionic-angular@2.0.0-beta.8
   ```
 
   _or_ modify the following line to use `beta.8` in your `package.json` and then run `npm install`:
 
   ```
-  "ionic-angular": "^2.0.0-beta.8",
+  "tw-ionic-angular": "^2.0.0-beta.8",
   ```
 
   **This is the way to update Ionic to any version, more information can be found in the [docs](https://ionicframework.com/docs/v2/resources/using-npm/).**
@@ -2878,7 +2926,7 @@ All Ionic component events have been renamed to start with `ion`. This is to pre
 2. Replace all instances of `@Page` with `@Component`:
 
   ```
-  import {Page} from 'ionic-angular';
+  import {Page} from 'tw-ionic-angular';
 
   @Page({
 
@@ -2898,7 +2946,7 @@ All Ionic component events have been renamed to start with `ion`. This is to pre
 3. Replace `@App` with `@Component` and then bootstrap it. Move any `config` properties into the bootstrap:
 
   ```
-  import {App, Platform} from 'ionic-angular';
+  import {App, Platform} from 'tw-ionic-angular';
 
   @App({
     templateUrl: 'build/app.html',
@@ -2915,7 +2963,7 @@ All Ionic component events have been renamed to start with `ion`. This is to pre
 
   ```
   import {Component} from '@angular/core';
-  import {ionicBootstrap, Platform} from 'ionic-angular';
+  import {ionicBootstrap, Platform} from 'tw-ionic-angular';
 
   @Component({
     templateUrl: 'build/app.html',
@@ -2937,7 +2985,7 @@ All Ionic component events have been renamed to start with `ion`. This is to pre
 4. Rename any uses of `IonicApp` to `App`:
 
   ```
-  import {IonicApp} from 'ionic-angular';
+  import {IonicApp} from 'tw-ionic-angular';
 
   constructor(
     private app: IonicApp
@@ -2947,7 +2995,7 @@ All Ionic component events have been renamed to start with `ion`. This is to pre
   becomes
 
   ```
-  import {App} from 'ionic-angular';
+  import {App} from 'tw-ionic-angular';
 
   constructor(
     private app: App
@@ -3117,7 +3165,7 @@ Angular has been updated to 2.0.0-rc.1, follow these steps to update Angular.
 2. Then, run the following command from a terminal to update Ionic and Angular, or take a look at the starter's [package.json](https://github.com/ionic-team/ionic2-app-base/commit/4861c099e2cc509eeb0eff4548554b34116c22a5) changes and update each version:
 
   ```
-  npm install --save ionic-angular@2.0.0-beta.7 @angular/core @angular/compiler @angular/common @angular/platform-browser @angular/platform-browser-dynamic @angular/router @angular/http rxjs@5.0.0-beta.6 zone.js@0.6.12 reflect-metadata
+  npm install --save tw-ionic-angular@2.0.0-beta.7 @angular/core @angular/compiler @angular/common @angular/platform-browser @angular/platform-browser-dynamic @angular/router @angular/http rxjs@5.0.0-beta.6 zone.js@0.6.12 reflect-metadata
   ```
 
 3. Run the following command from a terminal to update the gulp task for `ionic-gulp-scripts-copy`:
@@ -3191,7 +3239,7 @@ For example, the following:
 ```
 
 ```javascript
-import {IonicApp} from 'ionic-angular';
+import {IonicApp} from 'tw-ionic-angular';
 
 @App({
   templateUrl: 'build/app.html'
@@ -3214,7 +3262,7 @@ Should be changed (in TypeScript) to use the `Nav` ViewChild:
 
 ```javascript
 import {ViewChild} from '@angular/core';
-import {Nav} from 'ionic-angular';
+import {Nav} from 'tw-ionic-angular';
 
 @App({
   templateUrl: 'build/app.html'

@@ -11,7 +11,7 @@ import { ErrorHandler } from '@angular/core';
  *
  * ```typescript
  * import { ErrorHandler, NgModule } from '@angular/core';
- * import { IonicErrorHandler } from 'ionic-angular';
+ * import { IonicErrorHandler } from 'tw-ionic-angular';
  *
  * @NgModule({
  *   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }]

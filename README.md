@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/ionic-angular.svg)](https://badge.fury.io/js/ionic-angular)
+[![npm version](https://badge.fury.io/js/tw-ionic-angular.svg)](https://badge.fury.io/js/tw-ionic-angular)
 [![Circle CI](https://circleci.com/gh/ionic-team/ionic.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/ionic-team/ionic)
 [![Open Source Helpers](https://www.codetriage.com/ionic-team/ionic/badges/users.svg)](https://www.codetriage.com/ionic-team/ionic)
 

@@ -10,7 +10,7 @@ import { ScrollView } from './scroll-view';
  *
  * @usage
  * ```ts
- * import { Events } from 'ionic-angular';
+ * import { Events } from 'tw-ionic-angular';
  *
  * // first page (publish an event when a user is created)
  * constructor(public events: Events) { }

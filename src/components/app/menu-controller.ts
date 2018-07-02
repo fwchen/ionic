@@ -35,7 +35,7 @@ import { assert, removeArrayItem  } from '../../util/util';
  *
  * ```ts
  * import { Component } from '@angular/core';
- * import { MenuController } from 'ionic-angular';
+ * import { MenuController } from 'tw-ionic-angular';
  *
  * @Component({...})
  * export class MyPage {

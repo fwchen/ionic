@@ -63,7 +63,7 @@ import { NavigationContainer } from './navigation-container';
  * [Menu](../../menu/Menu/) and [Tab](../../tab/Tab/)).
  *
  * ```ts
- *  import { NavController } from 'ionic-angular';
+ *  import { NavController } from 'tw-ionic-angular';
  *
  *  class MyComponent {
  *    constructor(public navCtrl: NavController) {
@@ -85,7 +85,7 @@ import { NavigationContainer } from './navigation-container';
  * ```typescript
  *
  * import { Component, ViewChild } from '@angular/core';
- * import { NavController } from 'ionic-angular';
+ * import { NavController } from 'tw-ionic-angular';
  *
  * @Component({
  *    template: '<ion-nav #myNav [root]="rootPage"></ion-nav>'
@@ -111,7 +111,7 @@ import { NavigationContainer } from './navigation-container';
  *
  * ```typescript
  * import { Component } from '@angular/core';
- * import { App, ViewController } from 'ionic-angular';
+ * import { App, ViewController } from 'tw-ionic-angular';
  *
  * @Component({
  *     template: `
@@ -157,7 +157,7 @@ import { NavigationContainer } from './navigation-container';
  *
  * ```typescript
  * import { Component } from '@angular/core';
- * import { NavController } from 'ionic-angular';
+ * import { NavController } from 'tw-ionic-angular';
  * import { OtherPage } from './other-page';
  * @Component({
  *    template: `
@@ -189,7 +189,7 @@ import { NavigationContainer } from './navigation-container';
  *   }
  * }
  *
- * import { NavParams } from 'ionic-angular';
+ * import { NavParams } from 'tw-ionic-angular';
  *
  * @Component({
  *   template: `
@@ -214,7 +214,7 @@ import { NavigationContainer } from './navigation-container';
  *
  * ```ts
  * import { Component } from '@angular/core';
- * import { NavController } from 'ionic-angular';
+ * import { NavController } from 'tw-ionic-angular';
  *
  * @Component({
  *   template: `

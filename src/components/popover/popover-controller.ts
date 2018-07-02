@@ -55,7 +55,7 @@ import { DeepLinker } from '../../navigation/deep-linker';
  * ```
  *
  * ```ts
- * import { PopoverController } from 'ionic-angular';
+ * import { PopoverController } from 'tw-ionic-angular';
  *
  * @Component({})
  * class MyPage {

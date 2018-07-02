@@ -74,7 +74,7 @@ import { ViewController } from '../../navigation/view-controller';
  *
  * ```ts
  * import { ViewChild } from '@angular/core';
- * import { Slides } from 'ionic-angular';
+ * import { Slides } from 'tw-ionic-angular';
  *
  * class MyPage {
  *   @ViewChild(Slides) slides: Slides;
@@ -143,7 +143,7 @@ import { ViewController } from '../../navigation/view-controller';
  *
  * ```ts
  * import { ViewChild } from '@angular/core';
- * import { Slides } from 'ionic-angular';
+ * import { Slides } from 'tw-ionic-angular';
 
  * class MyPage {
  *   @ViewChild(Slides) slides: Slides;

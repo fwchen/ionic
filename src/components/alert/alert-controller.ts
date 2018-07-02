@@ -49,7 +49,7 @@ import { Config } from '../../config/config';
  *
  * @usage
  * ```ts
- * import { AlertController } from 'ionic-angular';
+ * import { AlertController } from 'tw-ionic-angular';
  *
  * constructor(public alertCtrl: AlertController) { }
  *

@@ -37,7 +37,7 @@ import { ToastOptions } from './toast-options';
  *
  * @usage
  * ```ts
- * import { ToastController } from 'ionic-angular';
+ * import { ToastController } from 'tw-ionic-angular';
  *
  * constructor(public toastCtrl: ToastController) { }
  *

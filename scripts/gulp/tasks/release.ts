@@ -28,9 +28,7 @@ task('nightly', (done: (err: any) => void) => {
 
 // Release: prompt, update, publish
 task('release', (done: (err: any) => void) => {
-  runSequence('release.pullLatest',
-              'validate',
-              'release.prepareReleasePackage',
+  runSequence('release.prepareReleasePackage',
               'release.promptVersion',
               'release.update',
               'release.publish',
@@ -62,7 +60,6 @@ task('release.update', (done: (err: any) => void) => {
 task('release.publish', (done: (err: any) => void) => {
   if (promptAnswers.confirmRelease === 'yes') {
     runSequence('release.publishNpmRelease',
-                'release.publishGithubRelease',
                 done);
   } else {
     console.log('Did not run release.publish tasks, aborted release');
@@ -229,7 +226,7 @@ task('release.createUmdBundle', (done: Function) => {
 });
 
 task('release.polyfill', (done: Function) => {
-  writePolyfills('dist/ionic-angular/polyfills').then(() => {
+  writePolyfills('dist/tw-ionic-angular/polyfills').then(() => {
     done();
   }).catch(err => {
     done(err);

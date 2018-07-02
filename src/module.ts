@@ -153,7 +153,7 @@ import { VirtualScroll } from './components/virtual-scroll/virtual-scroll';
  * ```ts
  * import { NgModule } from '@angular/core';
  *
- * import { IonicApp, IonicModule } from 'ionic-angular';
+ * import { IonicApp, IonicModule } from 'tw-ionic-angular';
  *
  * import { MyApp } from './app.component';
  * import { HomePage } from '../pages/home/home';
@@ -463,7 +463,7 @@ export class IonicModule {
  * ```ts
  * import { NgModule } from '@angular/core';
  *
- * import { IonicPageModule } from 'ionic-angular';
+ * import { IonicPageModule } from 'tw-ionic-angular';
  *
  * import { HomePage } from './home';
  *

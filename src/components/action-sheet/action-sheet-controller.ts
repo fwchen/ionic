@@ -35,7 +35,7 @@ import { Config } from '../../config/config';
  *
  * @usage
  * ```ts
- * import { ActionSheetController } from 'ionic-angular'
+ * import { ActionSheetController } from 'tw-ionic-angular'
  *
  * export class MyClass{
  *

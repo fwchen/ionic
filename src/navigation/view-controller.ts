@@ -14,7 +14,7 @@ import { Content, Footer, Header, Navbar } from './nav-interfaces';
  * @usage
  *  ```ts
  * import { Component } from '@angular/core';
- * import { ViewController } from 'ionic-angular';
+ * import { ViewController } from 'tw-ionic-angular';
  *
  * @Component({...})
  * export class MyPage{

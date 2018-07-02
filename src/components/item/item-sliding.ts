@@ -425,7 +425,7 @@ export class ItemSliding {
    *
    * ```ts
    * import { Component } from '@angular/core';
-   * import { ItemSliding } from 'ionic-angular';
+   * import { ItemSliding } from 'tw-ionic-angular';
    *
    * @Component({...})
    * export class MyClass {

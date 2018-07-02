@@ -19,7 +19,7 @@ export type DocumentDirection = 'ltr' | 'rtl';
  *
  * @usage
  * ```ts
- * import { Platform } from 'ionic-angular';
+ * import { Platform } from 'tw-ionic-angular';
  *
  * @Component({...})
  * export MyPage {
@@ -141,7 +141,7 @@ export class Platform {
    * from a web browser on the iPad then `mobileweb` would be `true`.
    *
    * ```
-   * import { Platform } from 'ionic-angular';
+   * import { Platform } from 'tw-ionic-angular';
    *
    * @Component({...})
    * export MyPage {
@@ -183,7 +183,7 @@ export class Platform {
    * it would return `mobile`, `ios`, and `iphone`.
    *
    * ```
-   * import { Platform } from 'ionic-angular';
+   * import { Platform } from 'tw-ionic-angular';
    *
    * @Component({...})
    * export MyPage {
@@ -205,7 +205,7 @@ export class Platform {
    * Returns an object containing version information about all of the platforms.
    *
    * ```
-   * import { Platform } from 'ionic-angular';
+   * import { Platform } from 'tw-ionic-angular';
    *
    * @Component({...})
    * export MyPage {
@@ -252,7 +252,7 @@ export class Platform {
    *
    * ```
    * import { Component } from '@angular/core';
-   * import { Platform } from 'ionic-angular';
+   * import { Platform } from 'tw-ionic-angular';
    *
    * @Component({...})
    * export MyApp {

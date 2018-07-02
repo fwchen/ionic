@@ -28,7 +28,7 @@ import { Platform } from '../../platform/platform';
  *
  * ```ts
  * import { Component, ViewChild } from '@angular/core';
- * import { List } from 'ionic-angular';
+ * import { List } from 'tw-ionic-angular';
  *
  * @Component({...})
  * export class MyClass {

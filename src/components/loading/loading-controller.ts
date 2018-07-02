@@ -47,7 +47,7 @@ import { LoadingOptions } from './loading-options';
  *
  * @usage
  * ```ts
- * import { LoadingController } from 'ionic-angular';
+ * import { LoadingController } from 'tw-ionic-angular';
  *
  * constructor(public loadingCtrl: LoadingController) { }
  *

@@ -1,5 +1,5 @@
 {
-  "name": "ionic-angular",
+  "name": "tw-ionic-angular",
   "version": "`gulp package` generates dist/package.json from this template using the root ./package.json",
   "description": "",
   "keywords": [],

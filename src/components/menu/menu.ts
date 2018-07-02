@@ -158,7 +158,7 @@ import { RootNode } from '../split-pane/split-pane';
  *
  * ```ts
  * import { Component } from '@angular/core';
- * import { MenuController } from 'ionic-angular';
+ * import { MenuController } from 'tw-ionic-angular';
  *
  * @Component({...})
  * export class MyPage {

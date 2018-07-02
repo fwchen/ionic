@@ -33,7 +33,7 @@ import { DeepLinker } from '../../navigation/deep-linker';
  *
  * @usage
  * ```ts
- * import { ModalController, NavParams } from 'ionic-angular';
+ * import { ModalController, NavParams } from 'tw-ionic-angular';
  *
  * @Component(...)
  * class HomePage {
@@ -72,7 +72,7 @@ import { DeepLinker } from '../../navigation/deep-linker';
  *
  * ```ts
  * import { Component } from '@angular/core';
- * import { ModalController, ViewController } from 'ionic-angular';
+ * import { ModalController, ViewController } from 'tw-ionic-angular';
  *
  * @Component(...)
  * class HomePage {

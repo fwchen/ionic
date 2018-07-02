@@ -10,10 +10,10 @@ To get started with Ionic, please read the [Installation Guide](https://ionicfra
 
 In the root of the package are ES5 sources in the CommonJS module format, their associated Typescript type definition files, and the Ionic Sass entry files. The Javascript sources are meant to be used by a bundler such as Webpack, SystemJS Builder, or Browserify. The type definitions provide support to Typescript tooling for things like type checking and code completion.
 
-Usually, the only import required by the user is `ionic-angular`, as everything from Ionic is exported by the package:
+Usually, the only import required by the user is `tw-ionic-angular`, as everything from Ionic is exported by the package:
 
 ```
-  import { App, NavController } from 'ionic-angular';
+  import { App, NavController } from 'tw-ionic-angular';
 ```
 
 ### Bundles

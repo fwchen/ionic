@@ -88,7 +88,7 @@ task('compile.karma', (done: Function) => {
   buildIonicAngularUmdTsc(false, false, done);
 });
 
-/* this task builds out the ionic-angular (commonjs and esm) directories for release */
+/* this task builds out the tw-ionic-angular (commonjs and esm) directories for release */
 task('compile.release', (done: Function) => {
   buildIonicAngularEsm(true, () => {
     buildIonicAngularUmd(true, true, () => {

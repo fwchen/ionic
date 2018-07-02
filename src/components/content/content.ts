@@ -49,7 +49,7 @@ export class EventEmitterProxy<T> extends EventEmitter<T> {
  *
  * ```ts
  * import { Component, ViewChild } from '@angular/core';
- * import { Content } from 'ionic-angular';
+ * import { Content } from 'tw-ionic-angular';
  *
  * @Component({...})
  * export class MyPage{
@@ -137,7 +137,7 @@ export class EventEmitterProxy<T> extends EventEmitter<T> {
  *
  * ```ts
  * import { Component, ViewChild } from '@angular/core';
- * import { Content } from 'ionic-angular';
+ * import { Content } from 'tw-ionic-angular';
  *
  * @Component({
  *   template: `<ion-content>

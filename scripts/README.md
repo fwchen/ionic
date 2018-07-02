@@ -14,7 +14,7 @@ Please follow the commit message format in [CONTRIBUTING.md](https://github.com/
 
 The latest nightly version can be installed via npm.
 
-1. Run `npm install --save ionic-angular@nightly`
+1. Run `npm install --save tw-ionic-angular@nightly`
 2. Your `package.json` file's `dependencies` will be updated with the nightly version.
 3. Restart any `watch` or `serve` commands that may be already running.
 
@@ -78,10 +78,10 @@ From `ionic` directory:
 
 From your app directory:
 
-1. `npm link ionic-angular`
+1. `npm link tw-ionic-angular`
 2. `ionic serve` or `ionic run` or `ionic emulate`
 
-To remove the linked version of `ionic-angular` do `npm rm ionic-angular`, and then reinstall using `npm install ionic-angular`.
+To remove the linked version of `tw-ionic-angular` do `npm rm tw-ionic-angular`, and then reinstall using `npm install tw-ionic-angular`.
 
 
 ### Running Snapshot
@@ -160,8 +160,8 @@ Running `webdriver-manager help` should show you what directory the webdriver is
   - Builds npm package files into dist
   - Removes debug statements
   - Publishes to npm using the `nightly` tag with the date/time of publish added to the version: `2.0.0-rc.0` results in `2.0.0-rc.0-201610131811`
-2. `npm install ionic-angular@nightly` will now install the latest nightly release
-3. Run `npm view ionic-angular` to see the latest nightly release
+2. `npm install tw-ionic-angular@nightly` will now install the latest nightly release
+3. Run `npm view tw-ionic-angular` to see the latest nightly release
 
 
 ### Releasing Component Demos
